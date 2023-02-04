@@ -19,8 +19,12 @@ const Playground = () => {
     // Tag pre print result of the code or error
     return <>
         <div className={styles.wrapepr}>
-            <textarea value={code} onChange={handleChange} />
-            <pre>{output}</pre>
+            <textarea
+                value={code}
+                onChange={handleChange}
+                className={styles.textarea}
+            />
+            <pre className={styles.output}>{output}</pre>
         </div>
     </>
 }

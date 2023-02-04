@@ -1,0 +1,24 @@
+.wrapepr {
+    height: 500px;
+    display: flex;
+    font-size: 14px;
+}
+
+.textarea {
+    flex: 1;
+    border: none;
+    resize: none;
+    height: 100%;
+    outline: none;
+    font-size: inherit;
+}
+
+.output {
+    flex: 1;
+    border: none;
+    height: 100%;
+    padding: 10px;
+    font-size: inherit;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
